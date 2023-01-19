@@ -1,0 +1,15 @@
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\bin\Debug\net7.0\aplicações.exe
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\bin\Debug\net7.0\aplicações.deps.json
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\bin\Debug\net7.0\aplicações.runtimeconfig.json
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\bin\Debug\net7.0\aplicações.dll
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\bin\Debug\net7.0\aplicações.pdb
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.csproj.AssemblyReference.cache
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.AssemblyInfoInputs.cache
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.AssemblyInfo.cs
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.csproj.CoreCompileInputs.cache
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.dll
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\refint\aplicações.dll
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.pdb
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\aplicações.genruntimeconfig.cache
+C:\Users\marce\OneDrive\Documentos\Programação\C#\21csharp\aplicações\obj\Debug\net7.0\ref\aplicações.dll
