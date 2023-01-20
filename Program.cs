@@ -8,17 +8,18 @@ do{
 Console.WriteLine("""
 O que você deseja fazer ?
 1 - Cadastrar o cliente
-2 - Ver conta corrente
-3 - Fazer credito em conta
-4 - Fazer débito em conta
-5 - Sair do sistema
+2 - Mostrar Cadastro
+3 - Ver conta corrente
+4 - Fazer credito em conta
+5 - Fazer débito em conta
+6 - Sair do sistema
 """);
 
-string opcao = Console.ReadLine()?.Trim();
+string? opcao = Console.ReadLine()?.Trim();
 Console.Clear();
 
 
-List<string> global = new List<string>();
+List<string[]> global = new List<string[]>();
 
 switch(opcao)
 {
@@ -26,25 +27,25 @@ switch(opcao)
 
     Console.WriteLine("===========Cadastro do Cliente============");
     
-    List<string> cadastro = new List<string>();
+    string[] cadastro = new string[4];
     var id = Guid.NewGuid();
     Console.WriteLine("000 GUID " + id);
 
     Console.WriteLine("Digite seu Nome: ");
-    string nome = Console.ReadLine();
+    string? nome = Console.ReadLine();
 
     Console.WriteLine($"Digite seu Telefone {nome}");
-    string Tel = Console.ReadLine();
+    string? Tel = Console.ReadLine();
 
     Console.WriteLine($"Digite seu E-mail {nome}");
-    string email = Console.ReadLine();
+    string? email = Console.ReadLine();
 
-    cadastro.Add(id.ToString());
-    cadastro.Add(nome);
-    cadastro.Add(Tel);
-    cadastro.Add(email);
+    cadastro[0] = id.ToString();
+    cadastro[1] = nome ?? "[Sem Nome]" ;
+    cadastro[2] = Tel ?? "[Sem Telefone]";
+    cadastro[3] = email ?? "[Sem email]";
 
-    global.Add(cadastro.ToString());
+    global.Add(cadastro);
 
     Console.Clear();
     break;
@@ -63,12 +64,18 @@ switch(opcao)
     break;
 
     case "5":
+
+    break;
+
+    case "6":
     sair = true;
     Console.Clear();
     break;
+
+
 }
 
-}while(sair =! false);
+}while(sair == true);
 
 
 
